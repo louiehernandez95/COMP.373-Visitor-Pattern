@@ -1,4 +1,5 @@
-#By Louie + Adil created on 4/22/2017
+#COMP 373: Visitor Pattern:Project 4 created on 4/22/2017
+#By Adil + Louie
 
 Definition from Notes: The Visitor Pattern Allows for one or more operation to be applied to a set of objects at
 runtime, decoupling the operations from the object structure. The visitor pattern can therefore provide additional
@@ -11,17 +12,22 @@ on the checkout button, it will calculate the total amount to be paid. So we can
 classes, or you can move it to another class by simply using the Visitor Pattern. This could be done by first creating
 different types of items to be used in the shopping cart. Then you can create concrete classes like price, ISBN #, a
 Fruit class that weighs the fruit, etc. You can implement the visitorImple class that will take all those concrete
-classes into affect to calculate the cost. This way during runtime the visitorImple class will be doing the logic i
-nstead of each concrete class calculating the cost.
+classes into affect to calculate the cost. This way during runtime the visitorImple class will be doing the logic
+instead of each concrete class calculating the cost.
 
 #Supporting Document(s):
 
-https://dzone.com/articles/design-patterns-visitor Great resource with the original example about the Taxis from class.
- Also has a nice diagram that helps visualize the pattern.
+https://dzone.com/articles/design-patterns-visitor 
 
-https://www.youtube.com/watch?v=Qy9eFruqcjw Great overview and informational talk about the Visitor Pattern. Although
+Great resource with the original example about the Taxis from class.
+Also has a nice diagram that helps visualize the pattern.
+
+https://www.youtube.com/watch?v=Qy9eFruqcjw 
+
+Great overview and informational talk about the Visitor Pattern. Although
 it may be too advanced for some stuff in this class (for example different Sub-types of visitor patterns.) But the
 implementation of the pattern was helpful, along with the coding example of a visitor pattern in use.
 
-https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm Good short summary along with steps on how to
-implement the pattern with a unique example of parts to a computer which I've never seen before.
+https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm 
+
+Good short summary along with steps on how to implement the pattern with a unique example of parts to a computer which I've never seen before.
