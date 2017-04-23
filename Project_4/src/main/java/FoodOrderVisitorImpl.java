@@ -3,15 +3,15 @@
  */
 public class FoodOrderVisitorImpl implements FoodOrderVisitor{
     @Override
-    public double visit(Taco taco) {
-        double cost = taco.getPrice();
-        System.out.println("Tacos: " + taco.getStyle() + ", cost = $" + cost);
+    public double visit(Appetizer appetizer) {
+        double cost = appetizer.getPrice();
+        System.out.println("Appetizer: " +appetizer.getStyle()+" "+ appetizer.getType()+", cost = $"+ cost);
         return cost;
     }
     @Override
-    public double visit(Burrito burrito) {
-        double cost = burrito.getPrice();
-        System.out.println("Burrito: " + burrito.getStyle() + ", cost = $" + cost);
+    public double visit(Entree entree) {
+        double cost = entree.getPrice();
+        System.out.println("Main Entree: " + entree.getType() + ", cost = $" + cost);
         return cost;
     }
     @Override

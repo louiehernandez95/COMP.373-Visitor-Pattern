@@ -1,13 +1,18 @@
 /**
- * Created by louie on 4/22/2017.
+ * Created by louie on 4/23/2017.
  */
-public class Burrito implements Food_Item{
+public class Appetizer implements Food_Item{
+    private String type;
     private String style;
     private double price;
 
-    public Burrito(String style, double price) {
+    public Appetizer(String type, String style, double price) {
+        this.type = type;
         this.style = style;
         this.price = price;
+    }
+    public String getType(){
+        return type;
     }
     public double getPrice() {
         return price;
